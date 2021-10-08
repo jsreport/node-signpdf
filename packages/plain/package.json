@@ -1,0 +1,32 @@
+{
+    "name": "@signpdf/plain",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vbuch/node-signpdf"
+    },
+    "license": "MIT",
+    "keywords": [
+        "sign",
+        "verify",
+        "pdf",
+        "node",
+        "nodejs",
+        "esign",
+        "adobe",
+        "ppklite",
+        "sign detached",
+        "pkcs7",
+        "pkcs#7",
+        "pades",
+        "digital signature"
+    ],
+    "main": "src/index.js",
+    "jest": {
+        "testPathIgnorePatterns": [
+            "node_modules",
+            "dist"
+        ]
+    }
+}

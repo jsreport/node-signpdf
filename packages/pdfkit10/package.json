@@ -1,0 +1,44 @@
+{
+    "name": "@signpdf/pdfkit10",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vbuch/node-signpdf"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test:coverage": "jest --coverage",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "build": "babel ./src -d ./dist --ignore \"**/*.test.js\"",
+        "build:watch": "babel --watch ./src -d ./dist --ignore \"**/*.test.js\"",
+        "precommit": "npm run lint",
+        "prepush": "npm run test"
+    },
+    "keywords": [
+        "sign",
+        "verify",
+        "pdf",
+        "node",
+        "nodejs",
+        "esign",
+        "adobe",
+        "ppklite",
+        "sign detached",
+        "pkcs7",
+        "pkcs#7",
+        "pades",
+        "digital signature"
+    ],
+    "main": "src/index.js",
+    "jest": {
+        "testPathIgnorePatterns": [
+            "node_modules",
+            "dist"
+        ]
+    },
+    "peerDependencies": {
+        "pdfkit": "^0.10.0"
+    }
+}
